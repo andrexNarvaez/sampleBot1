@@ -1,0 +1,19 @@
+{
+  "name": "samplebot1",
+  "version": "1.0.0",
+  "description": "chatBOt\u001b[D\u001b[D\u001b[o\u001b[C\u001b[",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrexNarvaez/sampleBot1.git"
+  },
+  "author": "Andres Narvaez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrexNarvaez/sampleBot1/issues"
+  },
+  "homepage": "https://github.com/andrexNarvaez/sampleBot1#readme"
+}
