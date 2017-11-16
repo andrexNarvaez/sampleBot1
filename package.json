@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/andrexNarvaez/sampleBot1/issues"
   },
-  "homepage": "https://github.com/andrexNarvaez/sampleBot1#readme"
+  "homepage": "https://github.com/andrexNarvaez/sampleBot1#readme",
+  "dependencies": {
+    "apiai": "^4.0.3",
+    "body-parser": "^1.18.2",
+    "config": "^1.28.1",
+    "request": "^2.83.0",
+    "uuid": "^3.1.0",
+    "xpress": "^2.4.6"
+  }
 }
