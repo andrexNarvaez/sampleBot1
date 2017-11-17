@@ -344,11 +344,11 @@ request.on('response', function(response) {
 				console.log('parameters:', parameters);
 				switch(action){
 					case 'account.balance':
-					checkAccount(senderID, "khe berga");
+					checkAccount(senderID, "bear");
 					break;
 					case 'account.movement':
 					sendTextMessage(senderID, 'get account movement');
-					checkAccount(senderID, "khe berga");
+					checkAccount(senderID, "bear");
 					break;
 					default:
 					console.log('unknown action...');
