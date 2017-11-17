@@ -322,6 +322,22 @@ function handleMessage(currentUser, senderID, message, isEcho, messageId, appId,
   }
 }
 
+function sendToBot(sender, message){
+	var request = app.textRequest('<Your text query>', {
+    sessionId: senderID
+});
+
+request.on('response', function(response) {
+    console.log(response);
+});
+
+request.on('error', function(error) {
+    console.log(error);
+});
+
+request.end();
+}
+
 function showMenu(senderID) {
   var messageData = {
     recipient: {
