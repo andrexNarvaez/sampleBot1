@@ -314,7 +314,8 @@ function handleMessage(currentUser, senderID, message, isEcho, messageId, appId,
       getUsername(senderID);
     }
     else {
-      sendTextMessage(senderID, messageText);
+      //sendTextMessage(senderID, messageText);
+	sendToBot(senderID,messageText);    
     }
   }
   else if (messageAttachments) {
@@ -323,7 +324,7 @@ function handleMessage(currentUser, senderID, message, isEcho, messageId, appId,
 }
 
 function sendToBot(sender, message){
-	var request = app.textRequest('<Your text query>', {
+	var request = app.textRequest(message, {
     sessionId: senderID
 });
 
