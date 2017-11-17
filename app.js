@@ -326,7 +326,7 @@ function handleMessage(currentUser, senderID, message, isEcho, messageId, appId,
 		const parameters = result.parameters;
 		console.log('action:', action);
 		console.log('parameters:', parameters);
-		switch(action)
+		switch(action){
 			case 'account.balance':
 			sendTextMessage(senderID, 'get account balance');
 			break;
@@ -336,6 +336,7 @@ function handleMessage(currentUser, senderID, message, isEcho, messageId, appId,
 			default:
 			console.log('unknown action...');
 			break;
+		}
 	}
   }
 }
