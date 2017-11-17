@@ -338,7 +338,7 @@ request.on('response', function(response) {
 				sendTextMessage(senderID, fulfillment.speech);
 			}
 			else{
-				const action = result.parameters;
+				const action = result.action;
 				const parameters = result.parameters;
 				console.log('action:', action);
 				console.log('parameters:', parameters);
