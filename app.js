@@ -352,8 +352,8 @@ request.on('response', function(response) {
 					default:
 					console.log('unknown action...');
 					break;
-		}
-	}
+				}
+			}
 		}
 	}
 });
